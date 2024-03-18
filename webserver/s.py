@@ -12,7 +12,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
         
         # Send response body
-        self.wfile.write(b"Hello, world!")
+        self.wfile.write(b"Hello, worddddld!")
 
 # Define the main function to run the server
 def main():
